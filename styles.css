@@ -3,6 +3,9 @@
     scrollbar-color: blue orange;
 }
 
+
+
+
 main{
 
     display: flex;
@@ -25,30 +28,45 @@ main{
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    align-self: center;
+    align-items: center;
 
  
 
 }
 
 
+#mydiv::-webkit-scrollbar{
+    width:2vw;
+
+}
+
+#mydiv::-webkit-scrollbar-thumb{
+    background-color: gray;
+
+
+}
+
+/* #mydiv::-webkit-scrollbar-track{
+    background-color: green;
+} */
+
+
 
 img{
     margin: 1em;
-    max-height: 55em;
+    max-height: 47em;
 
 }
 
 #chess{
     margin-left: 25em;
     margin-right: 25em;
+    max-height: 24em;
 
 }
 
 #pillow{
     margin-left: 25em;
     margin-right: 25em;
-
-
 
 }
