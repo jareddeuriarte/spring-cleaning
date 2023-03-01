@@ -1,9 +1,13 @@
 *{
     scrollbar-width: thin;
     scrollbar-color: blue orange;
+
 }
 
 
+body{
+    margin: 0;
+}
 
 
 main{
@@ -55,6 +59,7 @@ main{
 img{
     margin: 1em;
     max-height: 47em;
+    cursor: pointer;
 
 }
 
@@ -68,5 +73,24 @@ img{
 #pillow{
     margin-left: 25em;
     margin-right: 25em;
+
+}
+
+
+#lightbox{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+
+}
+
+#lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
