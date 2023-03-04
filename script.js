@@ -3,8 +3,21 @@
 // audio logic
 
 
-// var audio = new Audio('assets/audio/thank-u-next-lofi.mp3');
+const playButton = document.getElementById('play') 
+const audio = new Audio('assets/audio/thank-u-next-lofi.mp3');
 // audio.play();
+
+
+playButton.addEventListener("click", () => {
+
+    console.log('hello world')
+    audio.play();
+
+})
+
+
+
+
 
 
 

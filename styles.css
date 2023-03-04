@@ -15,7 +15,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 
@@ -129,5 +129,20 @@ img{
     padding: 1.5em;
     color: white;
     text-shadow: 2px 2px 2px rgb(0 0 0 / 64%);
+
+}
+
+
+
+#play{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#audio-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
 
 }
