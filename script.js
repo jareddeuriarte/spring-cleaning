@@ -1,4 +1,25 @@
-// lightbox element
+
+
+// audio logic
+
+
+// var audio = new Audio('assets/audio/thank-u-next-lofi.mp3');
+// audio.play();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//lightbox logic
+
 const lightbox = document.createElement('div')
 
 // assigning lightbox element id for styles

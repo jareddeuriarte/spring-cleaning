@@ -124,6 +124,7 @@ img{
 
 #portfolio{
     all: inherit;
+    cursor: pointer;
 
     padding: 1.5em;
     color: white;
