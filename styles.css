@@ -134,11 +134,11 @@ img {
 
 
 
-#play {
-    font-size: 2em;
+#play-pause {
+    font-size: 3em;
     cursor: pointer;
     color: white;
-    text-shadow: rebeccapurple 0 0 10px;
+    text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
 
 }
 
@@ -154,6 +154,7 @@ img {
     font-size: 2em;
     cursor: pointer;
     color: white;
-    text-shadow: rebeccapurple 0 0 10px;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 65%);
+
 
 }

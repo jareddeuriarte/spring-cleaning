@@ -1,24 +1,32 @@
 // audio logic
 
 //audio objects
-const audio1 = new Audio('assets/audio/thank-u-next-lofi.mp3');
-const audio2 = new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
+// new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
+const track = new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
 
-//button logic
-const playButton = document.getElementById('play') 
-const pauseButton = document.getElementById('pause') 
+const controlBtn = document.getElementById('play-pause');
 
-//play function
-playButton.addEventListener("click", () => {
-    console.log('music played')
-    audio2.play();
-})
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+    } else { 
+        track.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+    }
+}
 
-//pause function
-pauseButton.addEventListener("click", () => {
-    console.log('music paused')
-    audio2.pause();
-})
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+
+
+
+
+
 
 
 
@@ -68,3 +76,10 @@ lightbox.addEventListener('click', e => {
     // remove active class when lightbox element is clicked
     lightbox.classList.remove('active')
 }) 
+
+
+
+
+
+
+
