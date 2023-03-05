@@ -1,16 +1,16 @@
-*{
+* {
     scrollbar-width: thin;
     scrollbar-color: blue orange;
 
 }
 
 
-body{
+body {
     margin: 0;
 }
 
 
-main{
+main {
 
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ main{
 }
 
 
-.main-wrapper{
+.main-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,17 +36,17 @@ main{
     align-items: center;
     padding-bottom: 2em;
 
- 
+
 
 }
 
 
-#mydiv::-webkit-scrollbar{
-    width:2vw;
+#mydiv::-webkit-scrollbar {
+    width: 2vw;
 
 }
 
-#mydiv::-webkit-scrollbar-thumb{
+#mydiv::-webkit-scrollbar-thumb {
     background-color: gray;
 
 
@@ -58,23 +58,23 @@ main{
 
 
 
-img{
+img {
     max-height: 47em;
     cursor: pointer;
     margin-left: 25em;
 
 }
 
-#chess{
+#chess {
     max-height: 24em;
 }
 
 
-#monstera{
+#monstera {
     max-height: 30em;
 }
 
-#kiss{
+#kiss {
     max-height: 36em;
     margin-right: 25em;
 
@@ -82,7 +82,7 @@ img{
 
 }
 
-.diptyque{
+.diptyque {
     margin: 1em;
     max-height: 36em;
 
@@ -95,7 +95,7 @@ img{
 
 
 
-#lightbox{
+#lightbox {
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -106,14 +106,14 @@ img{
 
 }
 
-#lightbox img{
+#lightbox img {
     margin: 0;
     padding: 2px;
     border: 3px solid grey;
 
 }
 
-#lightbox.active{
+#lightbox.active {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ img{
 
 
 
-#portfolio{
+#portfolio {
     all: inherit;
     cursor: pointer;
 
@@ -134,15 +134,26 @@ img{
 
 
 
-#play{
+#play {
     font-size: 2em;
     cursor: pointer;
+    color: white;
+    text-shadow: rebeccapurple 0 0 10px;
+
 }
 
-#audio-wrapper{
+.audio-wrapper {
     display: flex;
     justify-content: center;
     margin-top: 2em;
     margin-bottom: 1em;
+
+}
+
+#pause {
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+    text-shadow: rebeccapurple 0 0 10px;
 
 }

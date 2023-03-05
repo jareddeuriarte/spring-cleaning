@@ -1,31 +1,24 @@
-
-
 // audio logic
 
+//audio objects
+const audio1 = new Audio('assets/audio/thank-u-next-lofi.mp3');
+const audio2 = new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
 
+//button logic
 const playButton = document.getElementById('play') 
-const audio = new Audio('assets/audio/thank-u-next-lofi.mp3');
-// audio.play();
+const pauseButton = document.getElementById('pause') 
 
-
+//play function
 playButton.addEventListener("click", () => {
-
-    console.log('hello world')
-    audio.play();
-
+    console.log('music played')
+    audio2.play();
 })
 
-
-
-
-
-
-
-
-
-
-
-
+//pause function
+pauseButton.addEventListener("click", () => {
+    console.log('music paused')
+    audio2.pause();
+})
 
 
 
