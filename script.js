@@ -11,24 +11,18 @@ function playPause() {
         track.play();
         //controlBtn.textContent = "Pause";
         controlBtn.className = "pause";
-    } else { 
+    } else {
         track.pause();
-         //controlBtn.textContent = "Play";
+        //controlBtn.textContent = "Play";
         controlBtn.className = "play";
     }
 }
 
 controlBtn.addEventListener("click", playPause);
-track.addEventListener("ended", function() {
-  controlBtn.className = "play";
+
+track.addEventListener("ended", function () {
+    controlBtn.className = "play";
 });
-
-
-
-
-
-
-
 
 
 
@@ -75,11 +69,48 @@ lightbox.addEventListener('click', e => {
 
     // remove active class when lightbox element is clicked
     lightbox.classList.remove('active')
-}) 
+})
 
 
 
 
 
 
+// text modal sandbox
 
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = document.querySelector(button.dataset.modalTarget)
+    openModal(modal)
+  })
+})
+
+overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+})
+
+closeModalButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
+
+function openModal(modal) {
+  if (modal == null) return
+  modal.classList.add('active')
+  overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+  if (modal == null) return
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
