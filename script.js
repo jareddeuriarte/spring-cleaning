@@ -1,8 +1,10 @@
 // audio logic
 
 //audio objects
-// new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
-const track = new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
+// const track = new Audio('assets/audio/thank-u-next-slow-n-reverb.mp3');
+const track = new Audio('assets/audio/thank-u-next-lofi.mp3');
+
+
 
 const controlBtn = document.getElementById('play-pause');
 
