@@ -59,31 +59,32 @@ main {
 img {
     max-height: 47em;
     cursor: pointer;
-    margin-left: 25em;
+    margin-left: 30em;
+}
+
+.before-dip{
+    margin-right: 30em;
 
 }
 
-#chess {
+/* #chess {
     max-height: 24em;
-}
+} */
 
-#monstera {
+/* #monstera {
     max-height: 30em;
-}
+} */
 
-#kiss {
+/* #kiss {
     max-height: 36em;
     margin-right: 25em;
 
 
 
-}
+} */
 
 .diptyque {
     margin: 1em;
-    max-height: 36em;
-
-
 }
 
 #lightbox {
