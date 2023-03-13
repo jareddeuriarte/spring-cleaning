@@ -67,9 +67,9 @@ img {
 
 }
 
-/* #chess {
+#chess {
     max-height: 24em;
-} */
+}
 
 /* #monstera {
     max-height: 30em;
@@ -270,3 +270,62 @@ img {
 
 
   }
+
+
+
+
+
+
+
+
+
+/* 2532x1170 pixels at 460ppi */
+
+
+
+    @media only screen and (max-width: 600px) {
+        
+        img {
+            max-height: 21em;
+            cursor: pointer;
+            margin-left: 30em;
+        }
+
+        #chess {
+            max-height: 15em;
+        }
+    
+        #lightbox img {
+            margin: 0;
+            padding: 2px;
+            border: 3px solid grey;
+            max-height: 40em;
+        
+        }
+
+
+      }
+
+
+      @media only screen and (max-width: 900px) {
+        
+        img {
+            max-height: 21em;
+            cursor: pointer;
+            margin-left: 30em;
+        }
+
+        #chess {
+            max-height: 15em;
+        }
+    
+        #lightbox img {
+            margin: 0;
+            padding: 2px;
+            border: 3px solid grey;
+            max-height: 40em;
+        
+        }
+
+
+      }
