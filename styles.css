@@ -60,6 +60,7 @@ img {
     max-height: 47em;
     cursor: pointer;
     margin-left: 30em;
+    padding: 0.5em;
 }
 
 .before-dip{
@@ -71,20 +72,35 @@ img {
     max-height: 24em;
 }
 
-/* #monstera {
-    max-height: 30em;
-} */
+#monstera {
+    max-height: 24em;
 
-/* #kiss {
+}
+
+.facetime-solos{
+
+    max-height: 39em;
+
+}
+
+#kiss {
+    max-height: 24em;
+}
+
+#peru{
     max-height: 36em;
-    margin-right: 25em;
 
-
-
-} */
+}
 
 .diptyque {
     margin: 1em;
+}
+
+
+#adansoni-screenshot{
+
+    max-height: 20em;
+
 }
 
 #lightbox {
