@@ -175,12 +175,6 @@ img {
 
 /* TEXT MODAL SANDBOX */
 
-
-
-
-
-
-
 *, *::after, *::before {
     box-sizing: border-box;
   }
@@ -289,10 +283,78 @@ img {
 
 
 
-
+  /* .noClick {
+    pointer-events: none;
+ } */
 
 
 /* 2532x1170 pixels at 460ppi */
+
+
+@media only screen and (max-width: 1024px) {
+        
+    img {
+        max-height: 33em;
+        cursor: pointer;
+        margin-left: 30em;
+        pointer-events: none;
+        
+    }
+
+    .before-dip{
+        margin-right: 30em;
+    
+    }
+    
+    #chess {
+        max-height: 24em;
+    }
+    
+    #monstera {
+        max-height: 24em;
+    
+    }
+    
+    .facetime-solos{
+    
+        max-height: 30em;
+    
+    }
+    
+    #kiss {
+        max-height: 24em;
+    }
+    
+    #peru{
+        max-height: 27em;
+    
+    }
+    
+    .diptyque {
+        margin: 1em;
+    }
+    
+    
+    #adansoni-screenshot{
+    
+        max-height: 20em;
+    
+    }
+
+  
+
+
+
+    #lightbox img {
+        margin: 0;
+        padding: 2px;
+        border: 3px solid grey;
+        max-height: 40em;
+    
+    }
+
+
+  }
 
 
 
@@ -302,6 +364,9 @@ img {
             max-height: 21em;
             cursor: pointer;
             margin-left: 30em;
+            pointer-events: none;
+
+            
         }
 
         #chess {
@@ -326,6 +391,8 @@ img {
             max-height: 21em;
             cursor: pointer;
             margin-left: 30em;
+            pointer-events: none;
+
         }
 
         #chess {
@@ -342,3 +409,8 @@ img {
 
 
       }
+
+
+
+
+\
