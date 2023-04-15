@@ -450,6 +450,56 @@ img {
       }
 
 
+      @media only screen and (max-width: 375px) {
+        
+        img {
+            max-height: 21em;
+            cursor: pointer;
+            margin-left: 30em;
+            pointer-events: none;
+
+
+        }
+
+
+      .modal-body {
+        padding: 10px 15px;
+        font-family: 'DM Sans', sans-serif;
+        text-align: justify;
+        font-size: 66%;
+    }
+
+
+
+
+      }
+
+
+      @media only screen and (max-width: 1180px) {
+        
+        img {
+            max-height: 38em;
+            cursor: pointer;
+            margin-left: 30em;
+            pointer-events: none;
+
+
+        }
+
+
+      .modal-body {
+        padding: 10px 15px;
+        font-family: 'DM Sans', sans-serif;
+        text-align: justify;
+        font-size: 66%;
+    }
+
+
+
+
+      }
+
+
 
 
 
