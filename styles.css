@@ -478,10 +478,16 @@ img {
       @media only screen and (max-width: 1180px) {
         
         img {
-            max-height: 38em;
+            max-height: 35.5em;
             cursor: pointer;
             margin-left: 30em;
             pointer-events: none;
+
+
+        }
+
+        #landscape{
+            max-height: 32.5em;
 
 
         }
