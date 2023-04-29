@@ -500,6 +500,12 @@ img {
         font-size: 66%;
     }
 
+    #byline{
+        pointer-events: none;
+
+
+    }
+
 
 
 
